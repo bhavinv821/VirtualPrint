@@ -5,8 +5,6 @@ from matplotlib import pyplot as plt
 
 path="C:\\Users\\Abc\\Desktop\\JavawithPython\\VirtualPrint\\src\\main\\resources\\images"+sys.argv[1]
 img=cv2.imread(path,0)
-
-
 img2=img
 
 clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))

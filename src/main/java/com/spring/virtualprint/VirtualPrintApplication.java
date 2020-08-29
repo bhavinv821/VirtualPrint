@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VirtualXeroxApplication {
+public class VirtualPrintApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VirtualXeroxApplication.class, args);
+		SpringApplication.run(VirtualPrintApplication.class, args);
 	}
 
 }

@@ -51,7 +51,6 @@ public class HomeController {
 		  
 		  try {
 			   
-
 				//	Process p = Runtime.getRuntime().exec("chsh -s /bin/zsh;cd /Users/yugrawal/PycharmProjects/opencvexamples;python3 matplotlibsss.py");
 			//	Process p = Runtime.getRuntime().exec("/usr/bin/python3/Users/yugrawal/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/VirtualXerox/src/main/resources/virtualxerox.py "+file.getOriginalFilename());
 			  Process p = Runtime.getRuntime().exec("python C:\\Users\\Abc\\Desktop\\JavawithPython\\VirtualPrint\\src\\main\\resources\\virtualprint.py "+file.getOriginalFilename());
